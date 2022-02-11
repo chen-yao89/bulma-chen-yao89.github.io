@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>CSS Selectors | Classes vs. IDs</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="../styles/main.css" rel="stylesheet" type="text/css">
+    <link href="../styles/blog.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.0/font/bootstrap-icons.css">
+    <script src="https://kit.fontawesome.com/d70db22a8e.js" crossorigin="anonymous"></script>
+  </head>
+  
+  <body>
+    <section class="hero is-medium" style="background-image: url(../img/CSS-ID/css-class.png);">
+      <div class="hero-body">
+        <div class="hero-body-text">
+          <p class="title">
+            What are the best practices associated with using classes vs. ids?
+          </p>
+          <p class="subtitle">
+            06 February 2022 | Chen Yao
+          </p>
+          <p style="font-style: italic;">Source: 
+            <a href="https://careerkarma.com/blog/css-class-vs-id-2/#:~:text=When%20comparing%20CSS%20class%20vs,and%20it's%20used%20by%20JavaScript." target="_blank">ID vs Class CSS: Understanding the Differences</a>
+            </p>      
+        </div>
+      </div>
+    </section>
+    <main class="section is-large bg-l1">
+      <p>
+        We use CSS to dress up the web pages. The CSS selectors let us apply the styles to the targeted element(s) in a web page more efficiently. 
+      </p>
+      <p>
+        If this sounds abstract to you, let us try to make a metaphor to help us draw the picture. Imagine you have a large wardrobe with over 100 tops. You’ve done a good job arranging these tops in the wardrobe so you can easily access all of them by type. There is just one downside to it. All the tops are plain white. You’re able to change the colour of one type of top to one colour, or you can change the colour of the tops one by one. But there are over 100 pieces and you don’t like any of these options. This is what a web page would look like without classes and IDs. It will be a plain structured page of words, pictures, links and tables. If you want to make it look fun or beautiful, it costs you countless amounts of time and energy.
+      </p>
+      <p>
+        IDs are unique. On one page, each element can only have one ID and one ID should only be applied to one element to keep its uniqueness and to fulfil its purposes. To apply an ID to an element, you give it the attribute “id” followed by the name of the ID. In either the style section or the CSS file, you set up the styles using “#” followed by the name of the ID and the styles immediately after that.
+      </p>
+      <a href="../img/CSS-ID/id example.png" target="_blank">
+      <img src="../img/CSS-ID/id example.png" alt="This is an example for id attribute.">
+      </a>
+      <p>
+        Classes, on the other hand, can be applied to a group of elements of mixed types, and each element can have multiple classes if needed.  To apply a class to multiple elements, you give them the attribute “class” followed by the name(s) of the class(s). In either the style section or the CSS file, you set up the styles using “.” followed by the name of the class and the styles immediately after that.
+      </p>
+      <a href="../img/CSS-ID/classes-example.png" target="_blank">
+      <img src="../img/CSS-ID/classes-example.png" alt="This is an example for class attribute.">
+      </a>
+      <p>
+        Let’s go back to your imagined wardrobe. Something magical happened. Your wardrobe now has access to a smart system and it allows you to label all the tops using classes or IDs. You can set one class called “blue” and apply it to as many tops as you want. All the tops labelled with the “blue” class will become blue. Now if you also create a label called “black stripes”, you can put the label on all tops, including the blue ones, to make them the blue tops with the pattern of black stripes. Then there is the ID label. You can create an ID called “I’m awesome” and pick one top to print the words “I’m awesome” on the front side. You can have as many blue tops and blue tops with black stripes, but there is only one top with the words “I’m awesome” on it.
+      </p>
+      <p>
+        I bet you’re still not convinced why you should have both classes and IDs. So far it sounds like there are not many differences. In fact, your wardrobe is so capable of dealing with chaos, sometimes it still works perfectly when you apply one ID to multiple tops.
+      </p>
+      <p>
+        Now you’ve customized all of your tops and you start to wonder if there is a way to let you easily grab the top you want. Same for web pages, we want the web page to do more than just present information. We want to interact with them and ask them to do more jobs. So we have JavaScript for that. This article will not dive into the concept of JavaScript. Let’s imagine it is an amazing software and hardware you installed in your smart system and in the wardrobe. It can find the exact top you want and bring it to you in just a snap! Only one condition - you need to give it a unique ID. 
+      </p>
+      <p>
+        Now let’s get back to coding. Here is what the page will look like when you use both ID and class selectors. You’ll see that the classes created a few collections of elements by making them red, blue and surrounded with black borders. But only the first element has the black glowing shadow. The ID we gave it made it unique. We can use this ID for many uses, such as in-page links and JavaScript functions.
+      </p>
+      <a href="../img/CSS-ID/combined css and id example.png" target="_blank">
+      <img src="../img/CSS-ID/combined css and id example.png" alt="This is an example for both attribute.">
+      </a>
+      <p>
+        It is quite clear now, isn’t it? Classes and IDs are very different CSS selectors. Picking up the right selector for the elements in the web pages is critical. It improves your efficiency and makes your coding neat and tidy. Just remember this: if any intended special feature for a unique element, give it an ID; otherwise, classes will be a good friend to take care of the rest.
+      </p>
+  </main>
+    
+    <a href="../index.html"><i class="bi bi-house-heart-fill"></i></i></a>
+    <!-- this is a comment. -->
+  
+  </body>
+</html>

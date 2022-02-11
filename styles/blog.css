@@ -1,0 +1,44 @@
+:root {
+    /* theme color */
+    --color-d1: #3e4437;
+    --color-d2: #404c24;
+    --color-l1: #a2ac94;
+    --color-l2: #cbccbc;
+    --color-l3: #d4c9c1;
+ 
+    --font-0: 'Roboto Mono', monospace;
+}
+
+div.hero-body-text {
+    box-shadow: 0 0 15px 5px var(--color-d2);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+a > i.bi {
+    position: fixed;
+    top: 50px;
+    right: 50px;
+    font-size: 40px;
+    width: 50px;
+    height: 50px;
+    transition: font-size 0.2s linear;
+}
+
+a:hover > i.bi {
+    font-size: 50px;
+    color: var(--color-d2);
+}
+
+main.section {
+    padding: 100px 100px;
+}
+
+main > p {
+    line-height: 25px;
+    margin-bottom: 30px;
+}
+
+main > a > img {
+    padding-bottom: 30px;
+}
