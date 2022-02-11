@@ -58,11 +58,6 @@ a {
     color: var(--color-d1);
 }
 
-li.is-active {
-    color: var(--color-d1) !important;
-    background-color: var(--color-l1) !important;
-}
-
 a:hover {
     color: var(--color-l1) !important;
 }
@@ -219,6 +214,50 @@ a.block.icon {
 
 a.block.icon:hover {
     background-color: var(--color-d1);
+}
+
+li > a > i {
+    transform: translateY(-50px);
+    animation: arrowForBlogs 1.5s infinite;
+}
+
+li:hover > a {
+    background-color: transparent !important;
+}
+
+@keyframes arrowForBlogs {
+    0% {transform: translateY(-50px);}
+    100% {transform: translateY(50px);}
+}
+
+li > a > i.dark {
+    transform: translateY(50px);
+    animation: arrowForBlogs 1.5s infinite reverse;
+}
+
+a.homelink > i.dark, a.homelink > p {
+    color: var(--color-d1) !important;
+}
+
+a.homelink {
+    border-bottom: var(--color-l1) solid 2px !important;
+    border-top: var(--color-d1) solid 5px !important;
+}
+
+li > a > p {
+    font-size: larger;
+    padding: 10px 0 10px 40px;
+    font-weight: 800;
+    text-shadow: 2px 2px 10px var(--color-l3);
+}
+
+nav.homelink {
+    background-color: var(--color-l1);
+    margin-bottom: 0 !important;
+}
+
+main.section {
+    padding-bottom: 120px !important;
 }
 
 /* Blog section CSS */

@@ -1,3 +1,7 @@
+
+@import url("https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css");
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&family=Saira+Condensed:wght@300&family=Supermercado+One&display=swap');
+
 :root {
     /* theme color */
     --color-d1: #3e4437;
@@ -7,6 +11,11 @@
     --color-l3: #d4c9c1;
  
     --font-0: 'Roboto Mono', monospace;
+}
+
+a {
+    text-decoration: none !important;
+    color: var(--color-d2);
 }
 
 div.hero-body-text {

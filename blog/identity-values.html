@@ -6,20 +6,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="../styles/main.css" rel="stylesheet" type="text/css">
+    <link href="../styles/blog.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.0/font/bootstrap-icons.css">
+    <script src="https://kit.fontawesome.com/d70db22a8e.js" crossorigin="anonymous"></script>
   </head>
   
-  <body>
-    <header class="blog-banner" style="background-image: url(../img/identity-value.jpeg); background-repeat: repeat;">
-    </header>
-    <main class="row-gap-blog layout-blog">
-      <h1 style="line-height: 40px; flex-basis: 100%; text-align: center;">Personal values and strengths</h1>
-      <!-- <h4>What are classes and IDs as CSS selectors? Can we differ one from the other? And if so, does the best practices associated with using these exist?</h4> -->
-      <p class="small-font">02 February 2022</p>
-      <!-- <p class="small-font" style="font-style: italic;">Source:  -->
-      <!-- <a href="https://careerkarma.com/blog/css-class-vs-id-2/#:~:text=When%20comparing%20CSS%20class%20vs,and%20it's%20used%20by%20JavaScript." target="_blank">ID vs Class CSS: Understanding the Differences</a>
-      </p> -->
-      <h4 style="width: 100%; text-align: center;">
+  <body class="f-0">
+    <section class="hero is-medium" style="background-image: url(../img/identity-value.jpeg);">
+      <div class="hero-body">
+        <div class="hero-body-text">
+          <p class="title f-l3">
+            Personal values and strengths
+          </p>
+          <p class="subtitle f-l3">
+            02 February 2022 | Chen Yao
+          </p>
+          <!-- <p style="font-style: italic;">Source: 
+            <a class="smoothHover" href="https://careerkarma.com/blog/css-class-vs-id-2/#:~:text=When%20comparing%20CSS%20class%20vs,and%20it's%20used%20by%20JavaScript." target="_blank">ID vs Class CSS: Understanding the Differences</a>
+            </p>       -->
+        </div>
+      </div>
+    </section>
+    <main class="section is-large bg-l1">
+      <h4 style="width: 100%; text-align: left; font-weight: 600; font-size: larger; margin-top: -50px; margin-bottom: 20px;">
         Core personal values
       </h4>
       <p>
@@ -27,57 +36,55 @@
       <p style="margin-left: 0; width: 100%;">
         To sum it up, my core values are:
       </p>
-      <ul style="display: block; list-style: disc; width: 100%; margin-left: 20px;">
+      <ul style="display: block; list-style: disc; width: 100%; margin-left: 20px; font-style: italic;">
         <li>Family / Toughness</li>
       </ul>
       <p style="margin-left: 20px;">
         I care for my loved ones and they are the most important things to me over the whole world. That being said, there are some underlying basic moral rules such as obedience to the law and integrity, etc. Toughness helped me to go through some difficult moments and it is solid support when I want an adventure. It is also going to be one of the most important qualities that I need to have if I want to see my loved little ones learn to grow with the essential qualities to thrive in their lives.
       </p>
-      <ul style="display: block; list-style: disc; width: 100%; margin-left: 20px;">
+      <ul style="display: block; list-style: disc; width: 100%; margin-left: 20px; font-style: italic;">
         <li>Wisdom / Self-Direction</li>
       </ul>
       <p style="margin-left: 20px;">
         I’ve left my mother country when I was 18 and lived to study or work in three different countries since then. I moved from China to the U.K., then Australia and eventually NZ after meeting my husband. For the last 2 decades in my life, I’ve been trying my best to be self-directed because I want to truly live my life. And wisdom only comes with self-direction.
       </p>
-      <ul style="display: block; list-style: disc; width: 100%; margin-left: 20px;">
+      <ul style="display: block; list-style: disc; width: 100%; margin-left: 20px; font-style: italic;">
         <li>Security / Trustworthiness</li>
       </ul>
         <p style="margin-left: 20px;">
         It is important to me that I keep my promises to anyone, my partner, my kids, and myself. I promised myself to get a Chartered Accountant certificate and I worked on it for two years even when I had to take care of a toddler and worked full time. If one is trustworthy, people around that person can talk about feeling secure.        
         </p>
-         <ul style="display: block; list-style: disc; width: 100%; margin-left: 20px;">
+         <ul style="display: block; list-style: disc; width: 100%; margin-left: 20px; font-style: italic;">
             <li>Discipline / Self-Reliance</li>
         </ul>
     <p style="margin-left: 20px;">
         I think this value is reflected by all my other core values. This is a must-have if I want to keep my other core values. The Myers Briggs test further proved my point showing that I’m an introvert.
         </p>
-        <ul style="display: block; list-style: disc; width: 100%; margin-left: 20px;">
+        <ul style="display: block; list-style: disc; width: 100%; margin-left: 20px; font-style: italic;">
             <li>Pleasure</li>
         </ul>
     <p style="margin-left: 20px;">
         Surprisingly, this wasn’t on my own list as I didn’t think of it as a personal value. But knowing that it is, everything changes. All I have to say is, what’s the point of living a life when you don’t know what pleasure is?        </p>
-    <h4>Ethical decision</h4>
+    <h4 style="width: 100%; text-align: left; font-weight: 600; font-size: larger; margin-bottom: 20px;">Ethical decision</h4>
       <p>
         Three years ago at work, I was merging the supporting documents into several categorised folders for all of our accounting entries in the cloud app we use. I should have tested this in the clone environment before performing it in the live environment. But I didn’t even think about it as I think this is such a small change and it won’t matter. Unfortunately, the app didn’t like the workload involved and it unlinked all the documents from the entries. This means if we need to find a supporting document for a specific entry, we need to search in the database or go back to our email inbox to search for the original email attachment. I contacted our tech support and tested the same steps I took in the clone environment to see what I did wrong. But nothing was wrong - it worked perfectly in the clone environment! I had two versions of the story to tell my boss. The short one is that the app collapsed and all the links are gone, not my fault. The other one is to tell the full story by admitting the fact that I didn’t test it in the clone environment first, even though it won’t change the result. Integrity is my core personal value and it also is my core professional value. I chose the latter. I had to take the responsibility to relink everything, one by one. It took me a year to complete this task and the process is extremely irritating. I still think I made the right choice, and I will make the same choice if there is a second chance.      
     </p>
-    <h4>My culture</h4>
+    <h4 style="width: 100%; text-align: left; font-weight: 600; font-size: larger; margin-bottom: 20px;">My culture</h4>
       <p>
         I grow up in China. To me, the core of Chinese culture is family and inheritance. My culture teaches me to value, respect, and protect my family. My culture teaches me to be benevolent. My country’s history showed me that toughness is the key to achievements. Nevertheless, in Chinese, we also say “Life is too short, enjoy it while you can”. My culture is the cornerstone of my core values.
           </p>
-    <h4>Strengths  and limitations</h4>
+    <h4 style="width: 100%; text-align: left; font-weight: 600; font-size: larger; margin-bottom: 20px;">Strengths  and limitations</h4>
       <p>
         The Myers Briggs test summed up a list of strengths and weaknesses for my personality. The list, as a matter of fact, is like a mirror that presents my whole personality in the most objective way.       </p>
       <p>
         My strengths are rational, informed, independent, determined, curious, and versatile. To my opinion, these qualities have served me very well in my learning and career development. When I need to make a game-changing decision regarding my career path, I don’t just pivot because I want to or I believe my instinct. I do it because it is the best choice based on my judgement after a thorough evaluation of the situation. My eagerness to learn new things or to be challenged at work also helped me to gain a good impression from my manager.
           </p>
           <p>My limitations are arrogant, dismissive of emotions, overly critical, combative, and romantically clueless. To be honest, I couldn’t really see how this has a negative impact on my career development until I saw the detailed analysis. Quoting directly from the site, “To these personalities, most team-building techniques and group meetings are a waste of time. And chitchat, gossip, and office politics – well, those can be nothing short of workplace plagues.”. This is exactly what I think and, unfortunately, this is what I said once in a team meeting and I can still remember the awkward silence. The roadblock in my career path, beyond all those limitations, is the fact that it is hard for me to realize that those are my limitations.</p>
-        <h4>Strengths and my learning journey</h4>
+        <h4 style="width: 100%; text-align: left; font-weight: 600; font-size: larger; margin-bottom: 20px;">Strengths and my learning journey</h4>
         <p>Luckily, when it comes to learning, my strengths serve extremely well. Being rational helps me to survive any negative emotion arising from learning obstacles. I will observe that I have a learning obstacle, instead of feeling sad and upset about my stupidity. Being determined will be the fundamental support for me to go through the whole journey, despite all the difficulties that I may come across. And last but not least, my curiosity is the first reason for me to be here writing this document and I believe it will also be the driver for me to thrive this learning journey.</p>
-        <h4>My past experience</h4>
+        <h4 style="width: 100%; text-align: left; font-weight: 600; font-size: larger; margin-bottom: 20px;">My past experience</h4>
         <p>During the entry years of my career, I was stuck in a small team. Everything we do is repetitive, predictable and not challenging. To me, it is a job that two persons can handle, including the backup capacity for one being absent. We had three people in the team. There was a lot of free time. I couldn’t bear wasting time just sitting there and staring at the screen. I asked my manager for more challenging tasks. When it was a task for an individual, there was no issue. I worked on it all by myself and that’s the end of the story. When it was a team task, it became a completely different story. My other team members, unlike me, enjoyed the free time and the easy job. They were reluctant to be proactive on anything extra workload. I didn’t want to fail any task and I knew we would achieve nothing if I didn’t take the initiative to lead the team. I prepared everything required, presented them to the manager during our meeting, and assigned sub-tasks to my teammates. </p>
         <p>My teammates were not happy, of course, and they had a talk with me trying to explain that I made them look bad. Eventually, I explained myself and they understood why I did all those. There should be a better way to resolve the issue we were facing. The result will be the same but my approach will be different. I would approach my teammates first, casually or formally, to let them know my concern, encourage them to come up with a solution. Knowing their personalities, we’ll probably end up having me as the team leader. But we would have come up with that decision as a team instead of an arrogant decision I made all by myself.</p>
-        <br>
-        <h3 class="medium-font" style="position: relative; text-align: left; width: 100%;">Author: Chen Yao</h3>
     </main>
     
     <a href="../index.html"><i class="bi bi-house-heart-fill"></i></i></a>

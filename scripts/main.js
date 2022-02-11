@@ -42,23 +42,3 @@ function showCard() {
     document.getElementById("id-card").classList.toggle("show");
     console.log(document.getElementById("id-card").classList.value)
 };
-
-// below are for blog links
-
-var blogLink = document.getElementById("blog-link");
-var homeLink = document.getElementById("home-link");
-
-blogLink.addEventListener("click", activeBlogTab);
-homeLink.addEventListener("click", activeHomeTab);
-
-function activeBlogTab() {
-    blogLink.parentElement.classList.add("is-active");
-    homeLink.parentElement.classList.remove("is-active");
-    // document.getElementById("profile-section").classList.add("hide");
-}
-
-function activeHomeTab() {
-    blogLink.parentElement.classList.remove("is-active");
-    homeLink.parentElement.classList.add("is-active");
-    // document.getElementById("profile-section").classList.remove("hide");
-}
