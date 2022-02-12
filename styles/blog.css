@@ -51,3 +51,15 @@ main > p {
 main > a > img {
     padding-bottom: 30px;
 }
+
+@media (max-width: 800px) {
+    main {
+        padding: 80px 45px !important;
+    }
+
+    a > i.bi {
+        right: 20px;
+        font-size: 30px;
+        color: var(--color-l1);
+    }
+}
