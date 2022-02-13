@@ -13,6 +13,10 @@
     --font-0: 'Roboto Mono', monospace;
 }
 
+body {
+    background-color: var(--color-l1);
+}
+
 a {
     text-decoration: none !important;
     color: var(--color-d2);
@@ -40,7 +44,8 @@ a:hover > i.bi {
 }
 
 main.section {
-    padding: 100px 100px;
+    padding: 100px 100px 0 100px;
+    margin: 0;
 }
 
 main > p {
