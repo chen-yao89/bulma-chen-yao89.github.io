@@ -68,3 +68,18 @@ main > a > img {
         color: var(--color-l1);
     }
 }
+
+img {
+    border: #3e4437 solid 4px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 40px 5px var(--color-d2);
+    margin-bottom: 20px;
+}
+
+.smaller {
+    width: 600px;
+}
+
+.medium {
+    width: 900px;
+}
