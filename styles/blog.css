@@ -18,8 +18,13 @@ body {
 }
 
 a {
-    text-decoration: none !important;
+    text-decoration: underline !important;
     color: var(--color-d2);
+}
+
+a:hover {
+    font-weight: 600;
+    color: var(--color-d1) !important;
 }
 
 div.hero-body-text {
