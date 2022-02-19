@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Problem-solving</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="../styles/main.css" rel="stylesheet" type="text/css">
+    <link href="../styles/blog.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.0/font/bootstrap-icons.css">
+    <script src="https://kit.fontawesome.com/d70db22a8e.js" crossorigin="anonymous"></script>
+  </head>
+  
+  <body class="f-0">
+    <section class="hero is-medium" style="background-image: url(../img/problem-solving.jpeg);">
+      <div class="hero-body">
+        <div class="hero-body-text">
+          <p class="title f-l3">
+            Problem-solving
+          </p>
+          <p class="subtitle f-l3">
+            20 February 2022 | Chen Yao
+          </p>
+          <!-- <p style="font-style: italic;">Source: 
+            <a class="smoothHover" href="https://careerkarma.com/blog/css-class-vs-id-2/#:~:text=When%20comparing%20CSS%20class%20vs,and%20it's%20used%20by%20JavaScript." target="_blank">ID vs Class CSS: Understanding the Differences</a>
+            </p>       -->
+        </div>
+      </div>
+    </section>
+    <main class="section is-large bg-l1">
+      <h4 style="width: 100%; text-align: left; font-weight: 600; font-size: larger; margin-top: -50px; margin-bottom: 20px;">
+        Conquer 1
+      </h4>
+      <p>
+        During my Sprint 4 coding practice, I came across this little issue where I was 99.99% confident with my code, but somehow the test result keeps telling me my answer was not as expected. It’s like when you’re trying to log into an account that you always use, you’re so confident about the username and password - you’ve done that so many times and there is no way that you could possibly get it wrong. Nonetheless, the website just keeps showing you those red annoying words “the username or the password is incorrect”.
+      <p>
+        I was reading the error messages and it wasn’t giving me much more helpful information other than it is expecting something else. I tried console.logging (where the computer shows me the information as I ask) and it returned exactly what the test looks for. I Googled many times for various methods and the tests just kept telling me the same thing. I went through my pseudocode (it’s like the first structure draft of your essay - just headings and ideas) but nothing appeared to be incorrect.
+      </p>
+      <p>
+        It was late and so I went to bed.
+      </p>
+      <p>
+        The next morning, I turned on my machine and looked at the error message again. I realized that the message is telling me that the type of result isn’t what it expects. I went back to my code. Guess what? I forgot to return my result. Yes, it was that simple. It’s like after struggling with all the possible ways of finding your account password, you find out that your wireless keyboard ran out of battery and you didn’t even bother to see if you’ve typed anything into those two little boxes.
+      </p>
+      <p>
+        I laughed as I thought it was funny. I was also a little annoyed because I wasted hours on this simple problem. I then realized the importance of reading the error message carefully. It says little but that piece of information tells you a lot. And, of course, in all the following problems, I never forgot to return my result.
+      </p>
+      <h4 style="width: 100%; text-align: left; font-weight: 600; font-size: larger; margin-bottom: 20px;">Conquer 2</h4>
+      <p>
+        There’s another issue that I had during the very same Sprint, related to a very similar problem in my conquer 1. You would’ve guessed that it is related to the “return” issue. And yes, that is right.
+      </p>
+      <p>
+        I wrote all my codes and I was, again, 99.99% confident about my answer. Yet, again, the error message said otherwise.
+      </p>
+      <p>
+        I had experience now. So I didn’t panic. I read through the message, it told me that I was returning a different type of result. It was asking for numbers and I gave it an object. It’s like the teacher asks you to give them a number but you gave them a friend of yours. It sounds ridiculous but it is exactly what was happening there.
+      </p>      
+      <p>
+        I read my last line and it was returning a number. I console.logged and it returned the correct number. I decided to use the Rubber ducky method. I’m going to read my solution out loud to my Deadpool figure model and see if he can help. That’s what the Rubber ducky method is about. You try to explain the code line by line to something, anything, and that will slow down the thinking process and spot the issue.
+      </p>
+      <p>
+        So I started, and I spotted my issue on my first line of code. I returned the question in my first line to see what I was dealing with. I forgot to get rid of it.
+      </p>
+      <p>
+        That was it. I solved this problem calmly in 2 minutes just because this time, I followed the problem-solving techniques correctly.
+      </p>
+      <h4 style="width: 100%; text-align: left; font-weight: 600; font-size: larger; margin-bottom: 20px;">Problem-solving techniques</h4>
+      <h5 style="width: 100%; text-align: left; font-weight: 400; font-size: larger; margin-bottom: 20px;"> - Pseudocode</h5>
+      <p>
+        It’s hard to say I’m confident or not using Pseudocode. It’s not a difficult technique as all I need to do is to write my planned solutions in small steps. I can even rewrite or rearrange them as I code. But it is hard to make it neat and understandable to other people. I think this is a technique that needs to be improved or changed to suit the new team/environment.
+      </p>
+      <h5 style="width: 100%; text-align: left; font-weight: 400; font-size: larger; margin-bottom: 20px;"> - Try something</h5>
+      <p>
+        I’m confident with this. Especially as a starter, trying something is the only thing we could do or we’ll never get started.
+      </p>
+      <h5 style="width: 100%; text-align: left; font-weight: 400; font-size: larger; margin-bottom: 20px;"> - Rubber ducky method</h5>
+      <p>
+        I haven’t really completed the whole process here as I’ve found my issue at the beginning as described in my conquer 2. I would feel a little embarrassed to complete this process when there are other people around me. But no worries, I can move to a comfortable environment to complete this process if I need to.
+      </p>
+      <h5 style="width: 100%; text-align: left; font-weight: 400; font-size: larger; margin-bottom: 20px;"> - Reading error messages</h5>
+      <p>
+        This is such an important technique! The error messages tell me 99.99% about the issues in my code! I’m not mastering it yet but I think I’m getting a lot better at it now. Initially, I just see the red and didn’t understand the words. Now that I understand them, I see how meaningful they are and I can jump right into my problem. It is such a time saver. 
+      </p>
+      <h5 style="width: 100%; text-align: left; font-weight: 400; font-size: larger; margin-bottom: 20px;"> - Console.logging</h5>
+      <p>
+        This is my second favourite method. Or the method that I use the second most frequently. Sometimes I have no idea what my result could be. I print them out in the console and I can see exactly what the issue was. It visualizes my result. Visualization always makes things easier.
+      </p>
+      <h5 style="width: 100%; text-align: left; font-weight: 400; font-size: larger; margin-bottom: 20px;"> - Googling</h5>
+      <p>
+        Googling is my favourite method. It teaches everything I want to know. All I need to do is ask for the correct information. Sadly speaking, I don’t think I can survive this course without Google.
+      </p>
+      <h5 style="width: 100%; text-align: left; font-weight: 400; font-size: larger; margin-bottom: 20px;"> - Asking your peers/coaches for help</h5>
+      <p>
+        I haven’t tried these processes yet but I believe the time will come. Once I was Googling and I found a question that is exactly the same as mine. I think that would be the same as asking my peer/coaches for help. Also, I like to provide help because it teaches me more when I try to help - I feel the need to be 100% confident before saying anything to my peers.
+      </p>
+      <h5 style="width: 100%; text-align: left; font-weight: 400; font-size: larger; margin-bottom: 20px;"> - Improving your process with reflection</h5>
+      <p>
+        Reflection is a very important step. This step is partly new to me. Anyone would have done reflection in their mind throughout their life. But writing it down makes it different. I need to clearly structure my thoughts so it makes sense when I write them out. This whole process helps me to see more, either the part I did good or the part I needed to improve.
+      </p>
+  
+    </main>
+    
+    <a href="../index.html"><i class="bi bi-house-heart-fill"></i></i></a>
+    <!-- this is a comment. -->
+  
+  </body>
+</html>
