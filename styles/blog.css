@@ -88,3 +88,37 @@ img {
 .medium {
     width: 500;
 }
+
+nav {
+    padding: 20px 100px;
+    background-color: #d4c9c1;
+    position: fixed;
+    width: calc(100% - 100px);
+    border-radius: 30px 30px 0 0;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    box-shadow: 0 -2px 10px 7px #3e4437;
+}
+
+nav > a {
+    color: #3e4437;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 0 20px 0 0;
+    text-shadow: 1px 1px 5px #a2ac94;
+}
+
+nav > a:hover {
+    text-shadow: 2px 2px 3px #3e4437;
+    color: #d4c9c1 !important;
+    text-decoration: none;
+}
+
+div {
+    scroll-margin-top: 100px;
+}
+
+h4 {
+    margin-top: 20px;
+}
